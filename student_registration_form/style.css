@@ -1,0 +1,120 @@
+/* Universal selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Form container (class selector) */
+.registration-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    color: #1e3a8a;
+    font-size: 28px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+/* Labels */
+label {
+    display: block;
+    color: #333333;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 12px 0 5px;
+}
+
+/* Inputs, dropdowns and textarea */
+input,
+select,
+textarea {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 4px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+/* Focus effect */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
+}
+
+/* Radio buttons and checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.radio-group,
+.terms {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.terms {
+    margin-top: 15px;
+}
+
+.inline-label {
+    display: inline;
+    font-weight: normal;
+    margin: 0 15px 0 0;
+}
+
+/* Buttons */
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0 10px;
+}
+
+button {
+    flex: 1;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn-register {
+    background-color: #2563eb;
+}
+
+.btn-register:hover {
+    background-color: #1d4ed8;
+}
+
+.btn-reset {
+    background-color: #6b7280;
+}
+
+.btn-reset:hover {
+    background-color: #4b5563;
+}
